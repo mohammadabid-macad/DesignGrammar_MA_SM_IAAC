@@ -95,8 +95,8 @@ In this presentation, we cover:
 
 This project was developed as part of the MaCAD 23/24 final thesis project at IAAC Barcelona. The key contributors to this project are:
 
-    Mohammad Abid (mohammadabid.sada@gmail.com)
-    Saif Mahfouz (saif.al-islam.mahfouz@students.iaac.net)
+Mohammad Abid (mohammadabid.sada@gmail.com)
+Saif Mahfouz (saif.al-islam.mahfouz@students.iaac.net)
 
 Supervision: David Andres Leon (david.andres.leon@iaac.net)
 
