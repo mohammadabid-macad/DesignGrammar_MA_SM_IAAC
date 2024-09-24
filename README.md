@@ -1,6 +1,6 @@
 # Design as Grammar: Pattern Filling with Graph ML
 
-##Repository Overview:
+#Repository Overview:
 
 This repository contains the code and dataset used in the Design as Grammar project, focusing on pattern filling using Graph Machine Learning (Graph ML) techniques. The project involves generating patterns, converting them into graphs, embedding features, and training a custom GraphSAGE hybrid model for self-supervised learning.
 Table of Contents
@@ -17,7 +17,7 @@ Table of Contents
     Contributors
     License
 
-Project Description
+# Project Description
 
 In this project, we explore pattern filling on a grid using Graph Machine Learning. The dataset is generated using random LEGO brick placements, and the patterns are converted into DGL (Deep Graph Library) graphs. We employ a custom GraphSAGE hybrid model to predict brick placements through self-supervised learning. The key objectives of this project are to create complex pattern-filling strategies using Graph ML, embedding features for bricks and edges, and training models on the resulting graphs.
 Folder Structure
@@ -26,7 +26,7 @@ Folder Structure
     DesignGrammar_DatasetCreation_BricklayerX.ipynb: Jupyter notebook for generating patterns and creating the dataset.
     DesignGrammar_SelfSupervised_Hybrid_Model_Training.ipynb: Jupyter notebook for embedding features and training the Graph ML model.
 
-Requirements
+# Requirements
 
 To ensure compatibility, the following specific versions of libraries were used:
 
@@ -77,8 +77,8 @@ bash
 
     Open the notebooks (DesignGrammar_DatasetCreation_BricklayerX.ipynb and DesignGrammar_SelfSupervised_Hybrid_Model_Training.ipynb) and follow the instructions provided in each notebook.
 
-Using the Notebooks
-Dataset Creation Notebook
+# Using the Notebooks
+# Dataset Creation Notebook
 
     Purpose: The DesignGrammar_DatasetCreation_BricklayerX.ipynb notebook generates random brick patterns, converts them into graphs, and extracts features for use in training.
     Steps in the Notebook:
@@ -87,7 +87,7 @@ Dataset Creation Notebook
         Convert the patterns to DGL graphs and extract node and edge features.
         Save the dataset and features as .pkl files.
 
-Model Training Notebook
+# Model Training Notebook
 
     Purpose: The DesignGrammar_SelfSupervised_Hybrid_Model_Training.ipynb notebook loads the dataset, embeds features into the graphs, and trains the custom GraphSAGE hybrid model on the data.
     Steps in the Notebook:
@@ -97,14 +97,14 @@ Model Training Notebook
         Visualize the training and validation results.
         Save the trained model and its results.
 
-Results and Visualization
+# Results and Visualization
 
     After training the model, the results are visualized by plotting the training/validation loss and accuracy.
     The model predictions are applied to random test patterns, and the results are displayed to show the pattern-filling efficiency of the trained GraphSAGE model.
 
-Project Overview and Presentation
+# Project Overview and Blogpost
 
-This repository contains the full project details for Design as Grammar. For a detailed explanation of the research, methodology, and results, you can review the presentation here.
+This repository contains the full project details for Design as Grammar. For a detailed explanation of the research, methodology, and results, you can review the our blogpost here.
 
 In this presentation, we cover:
 
@@ -114,14 +114,15 @@ In this presentation, we cover:
     Model Training: How we applied self-supervised learning for node-level and graph-level predictions.
     Results and Applications: Visualization of the model’s predictions and its applications to modular design in architecture.
 
-Contributors
+# Contributors
 
 This project was developed as part of the MaCAD 23/24 final thesis project at IAAC Barcelona. The key contributors to this project are:
 
-    Mohammad Abid
-    Saif Mahfouz
+    Mohammad Abid (mohammadabid.sada@gmail.com)
+    Saif Mahfouz (saif.al-islam.mahfouz@students.iaac.net)
 
-Supervision: David Andres Leon
-License
+Supervision: David Andres Leon (david.andres.leon@iaac.net)
+
+# License
 
 This project is licensed through IAAC Barcelona and is not open for public distribution. For any inquiries or permission requests, please contact IAAC or the project contributors.
