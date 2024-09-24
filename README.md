@@ -54,29 +54,6 @@ bash
 
 pip install networkx matplotlib pandas numpy
 
-Setup Instructions
-
-    Clone the repository:
-
-    bash
-
-git clone https://github.com/mohammadabid-macad/DesignGrammar_MA_SM_IAAC.git
-cd DesignGrammar_MA_SM_IAAC
-
-Install the required dependencies by running:
-
-bash
-
-pip install -r requirements.txt
-
-Run Jupyter Notebook:
-
-bash
-
-    jupyter notebook
-
-    Open the notebooks (DesignGrammar_DatasetCreation_BricklayerX.ipynb and DesignGrammar_SelfSupervised_Hybrid_Model_Training.ipynb) and follow the instructions provided in each notebook.
-
 # Using the Notebooks
 # Dataset Creation Notebook
 
