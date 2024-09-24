@@ -1,6 +1,6 @@
 # Design as Grammar: Pattern Filling with Graph ML
 
-#Repository Overview:
+# Repository Overview:
 
 This repository contains the code and dataset used in the Design as Grammar project, focusing on pattern filling using Graph Machine Learning (Graph ML) techniques. The project involves generating patterns, converting them into graphs, embedding features, and training a custom GraphSAGE hybrid model for self-supervised learning.
 Table of Contents
